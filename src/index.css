@@ -1,13 +1,109 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-color: #3E6E8C;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container{
+  width: 100%;
+  height: 100px;
+  display: flex; 
+  margin:50%;
+  margin-top: 25vw;
+  
+  background-color: #3E6E8C;
+}
+.icones{
+ margin-right: 10px;
+ 
+ right: 2px;
+ width: 190px;
+ 
+}
+button{
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.face{
+  background-color: transparent;
+  color:#0D0D0D;
+  background-color: #FFF;
+  font-size: 35px; 
+  border: 2px solid #0D0D0D;
+  border-radius: 5px;
+  padding: 5px;
+  position: fixed;
+  margin-top: -49px;
+  margin-left: -50px;
+  transition: 0.3s;
+  z-index: 1;
+  
+}
+.face:hover{
+  color: #FFF;
+  background-color: #0D0D0D;
+  border: 2.5px solid #FFF;
+  position: absolute;
+  transition: 0.5s;
+  width: 170px;
+  z-index: 10;
+  transform: 125px;
+}
+.linkdin{
+  background-color: transparent;
+  color:#0D0D0D;
+  font-size: 35px;
+  background-color: #FFF;
+  border: 2px solid #0D0D0D;
+  border-radius: 5px;
+  padding: 5px;
+  position: fixed;
+  margin-top: -49px;
+  transition: 0.3s;
+  z-index: 1;
+}
+.linkdin:hover{
+  color: #FFF;
+  border: 2px solid #FFF;
+  background-color: #0D0D0D;
+  width: 180px;
+  position: absolute;
+  z-index: 10;
+  transform: translateX(75px);
+  transform: translateX(-75px);
+  transition: 0.5s;
+
+  
+  
+}
+.github{
+  color: #0D0D0D;
+  background-color: #FFF;
+  font-size: 35px;
+  border: 2px solid #0D0D0D;
+  border-radius: 5px;
+  padding: 5px;
+  position: fixed;
+  margin-top: -49px;
+  margin-left: 50px;
+  transition: 0.3s;
+  z-index: 1;
+  
+}
+.github:hover{
+  color: #FFF;
+  border: 2.5px solid #FFF;
+  width: 170px;
+  z-index: 10;
+  position:absolute;
+  transition: 0.5s;
+  transform: translateX(-125px);
+  margin-top: -50px;
+  background-color: #0D0D0D;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
